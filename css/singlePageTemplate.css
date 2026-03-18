@@ -1336,10 +1336,10 @@ width:30px;
 height:30px;
 }
 .hero-services{
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url("../images/hero-maison-azur.png");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/hero-contact.png");
     background-size: cover;
-    background-position: center 20%;
+    background-position: center;
     padding: 220px 20px 150px 20px;
     color: white;
     text-align: center;
@@ -1442,7 +1442,7 @@ height:30px;
   margin-bottom: 0;
 }
 .hero-services{
-  background: url("../images/hero-menage.png") center/cover no-repeat;
+  background: url("../images/hero-contact.png") center/cover no-repeat;
   height: 400px;
 }
 .hero-services{
@@ -1451,8 +1451,8 @@ height:30px;
   justify-content: center;
 }
 .hero-services{
-  background-image: url("../images/hero-menage2.png");
-  background-position: center;
+  background-image: url("../images/hero-contact3.png");
+  background-position: center 20%;
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
@@ -1644,4 +1644,56 @@ height:30px;
     visibility: visible !important;
     opacity: 1 !important;
   }
+}.contact-infos{
+  padding: 70px 20px;
+  text-align: center;
+  background: #f8f6f2;
+}
+
+.contact-infos h2{
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #0d2345;
+}
+
+.contact-intro{
+  max-width: 700px;
+  margin: 0 auto 35px auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.contact-card{
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 35px 30px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.contact-card p{
+  margin: 0 0 18px 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.contact-card p:last-child{
+  margin-bottom: 0;
+}
+
+.contact-card strong{
+  color: #0d2345;
+}
+
+.contact-card a{
+  color: #c9a24a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-card a:hover{
+  text-decoration: underline;
 }

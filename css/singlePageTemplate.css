@@ -1636,3 +1636,12 @@ height:30px;
     line-height: 1.2 !important;
   }
 }
+@media (max-width: 767px){
+  .container header nav,
+  .container header nav ul,
+  .container header nav ul li,
+  .container header nav ul li a{
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}

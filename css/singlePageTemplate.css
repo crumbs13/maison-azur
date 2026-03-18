@@ -1451,7 +1451,7 @@ height:30px;
   justify-content: center;
 }
 .hero-services{
-  background-image: url("../images/hero-contact4.png");
+  background-image: url("../images/hero-menage2.png");
   background-position: center 70%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1696,4 +1696,7 @@ height:30px;
 
 .contact-card a:hover{
   text-decoration: underline;
+}
+.hero-contact{
+  background: url("../images/hero-contact4.png") center 70% / cover no-repeat;
 }
